@@ -85,6 +85,9 @@ body {
     margin: 0 auto;
 }
 
+.pointer {
+    cursor: pointer;
+}
 .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
@@ -195,6 +198,9 @@ body {
 }
 
 @media print {
+    .hide-on-print {
+        display: none;
+    }
     *,
     *:before,
     *:after {
